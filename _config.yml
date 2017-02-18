@@ -1,0 +1,19 @@
+email: your-email@domain.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+seo:
+  description: 'Hello World!'
+  rel-author: 'https://vadimkolosov.pro'
+  rel-publisher: 'https://www.facebook.com/web.vadimkolosov'
+
+
+
+# Build settings
+markdown: kramdown
+
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock

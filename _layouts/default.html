@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="{{ config.seo.description }}">
+  <meta rel="author" href="{{ config.seo.rel-author }}">
+  <meta rel="publisher" href="{{ config.seo.rel-publisher }}">
+  <title>{% if page.title %}{{ page.title }}{% endif %}</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="body--main flex-col">
+
+    {{ content }}
+
+  </div>
+
+  <script src="assets/js/jquery-3.1.1.min.js"></script>
+  <script src="/assets/js/custom.js"></script>
+</body>
+</html>
