@@ -2,19 +2,55 @@
 /*                               ANIMATION                              */
 /*** =================================================================***/
 
-%animation
-  fill-opacity: 0
-  animation: DrawLine 4.5s ease-in-out forwards
+/* Nav Menu Animation*/
+.active-nav-menu
+  animation: navMenuAnimation .3s ease-in-out forwards
 
-@keyframes DrawLine
+@keyframes navMenuAnimation
   0%
-    stroke-dashoffset: -716
-  20%
-    fill-opacity: 0
-  50%
-    stroke-dashoffset: -0
-
-
-
+    border-radius: 20%
+    transform: scale(0)
   100%
-    fill-opacity: 1
+    border-radius: 0
+    transform: scale(1)
+
+/* Disable Nav Menu Animation*/
+.disable-nav-menu
+  animation: navMenuAnimationDis .2s ease-in-out forwards
+
+@keyframes navMenuAnimationDis
+  0%
+    border-radius: 0
+    transform: scale(1)
+  100%
+    border-radius: 20%
+    transform: scale(0)
+
+/* Headline Animation*/
+
+.animation-h2
+  animation: headlineUp 1s ease .6s forwards
+  transform: translate3d(0,100%,0)
+
+.animation-h3
+  animation: headlineDown 1s ease .6s forwards
+  transform: translate3d(0,-100%,0)
+
+@keyframes headlineUp
+  from
+    transform: translate3d(0,100%,0)
+  to
+    transform: translate3d(0,0%,0)
+
+@keyframes headlineDown
+  from
+    transform: translate3d(0,-100%,0)
+  to
+    transform: translate3d(0,0%,0)
+    color: #242424
+
+@keyframes headlineLine
+  from
+    transform: translate3d(-100%,0,0)
+  to
+    transform: translate3d(0,0,0)

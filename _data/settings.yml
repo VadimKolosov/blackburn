@@ -1,0 +1,66 @@
+# title: Vadim Kolosov
+# description: Thinker // Designer // YouTuber
+# email: web.vadimkolosov@gmail.com
+
+
+description:
+- {local-image: 'nepal-everest.jpg',
+  description-text-short: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+  description-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+  product-image: 'coffee-pack.jpg',
+  alt-product-image: 'coffee pack',
+  product-logo: 'lion.jpg',
+  alt-product-logo: 'lion',
+  product-name: 'Nepal',
+  product-location: 'Everest' }
+
+- {local-image: 'ethiopia-africa.jpg',
+  description-text-short: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+  description-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+  product-image: 'coffee-pack.jpg',
+  alt-product-image: 'coffee pack',
+  product-logo: 'lion.jpg',
+  alt-product-logo: 'lion',
+  product-name: 'Ethiopia',
+  product-location: 'Africa' }
+
+- {local-image: 'galapagos-ecuador.jpg',
+  description-text-short: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+  description-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+  product-image: 'coffee-pack.jpg',
+  alt-product-image: 'coffee pack',
+  product-logo: 'lion.jpg',
+  alt-product-logo: 'lion',
+  product-name: 'Ecuador',
+  product-location: 'Galapagos' }
+
+- {local-image: 'nepal-everest.jpg',
+  description-text-short: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+  description-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+  product-image: 'coffee-pack.jpg',
+  alt-product-image: 'coffee pack',
+  product-logo: 'lion.jpg',
+  alt-product-logo: 'lion',
+  product-name: 'Sumatra',
+  product-location: 'Indonesia' }
+
+- {local-image: 'sumatra-indonesia.jpg',
+  description-text-short: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+  description-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+  product-image: 'coffee-pack.jpg',
+  alt-product-image: 'coffee pack',
+  product-logo: 'lion.jpg',
+  alt-product-logo: 'lion',
+  product-name: 'Columbia',
+  product-location: 'South America' }
+
+- {local-image: 'ethiopia-africa.jpg',
+  description-text-short: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+  description-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+  product-image: 'coffee-pack.jpg',
+  alt-product-image: 'coffee pack',
+  product-logo: 'lion.jpg',
+  alt-product-logo: 'lion',
+  product-name: 'Blue Mountain',
+  product-location: 'Jamaica' }

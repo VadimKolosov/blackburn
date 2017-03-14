@@ -1,0 +1,22 @@
+<!-- ============== Articles Section ============== -->
+<section class="card">
+  <div class="card--content-preview">{% for description in site.data.settings.description %}
+    <div class="card--product-wrapper">
+      <div class="card--local-beauty" style="background-image: url(assets/img/{{ description.local-image }});"></div>
+      <div class="card--short-description">
+        <h2>{{ description.product-location }}</h2>
+        <p>{{ description.description-text-short }}      </p>
+      </div><a class="card--link-to-full" href="#{{ description.product-name }}">
+        <div class="card--product-logo">{% include logo/blackburn-logo.html %}</div><span>{{ description.product-name }}</span></a>
+    </div>{% endfor %}
+  </div>{% for description in site.data.settings.description %}
+  <div class="card--content-full" id="{{ description.product-name }}">
+    <div class="card--product-image" style="background-image: url(assets/img/{{ description.product-image }});">     </div>
+    <div class="card--text"><span class="simple-line">
+        <h2 class="headline-one">{{ description.product-location }}</h2></span><span>
+        <h3 class="headline-two">{{ description.product-name }}</h3></span>
+      <p>{{ description.description-text }}</p><a class="card--backbutton" href="#main">{% include logo/close-cross.html %} Close</a>
+    </div>
+    <div class="card--logotype"></div>
+  </div>{% endfor %}
+</section>

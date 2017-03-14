@@ -1,0 +1,217 @@
+/*** =================================================================***/
+/*                           ARTICLE SECTION                            */
+/*** =================================================================***/
+
+.card
+  background-color: rgb(168, 149, 191)
+  position: relative
+  box-sizing: border-box
+  height: 100vh
+  @media (min-width: 1367px)
+    padding: 60px
+  @media (max-width: 500px)
+    height: auto
+
+  &--content-preview
+    display: flex
+    // display: none
+    flex-direction: column
+    height: 100%
+    @media (min-width: 767px)
+      flex-direction: row
+      flex-wrap: wrap
+
+  &--product-wrapper
+    box-sizing: border-box
+    padding: 10px
+    display: flex
+    flex-direction: column
+    width: 100%
+    background: white
+    transition: all .3s ease-in-out
+    @media (min-width: 500px)
+      display: block
+    @media (min-width: 767px)
+      display: flex
+      width: 33.33%
+      padding: 0
+      &:hover
+        z-index: 1
+        box-shadow: 0px 0px 13px 2px rgba(0,0,0,0.75)
+        transform: scale(1.02)
+      &:hover .card--short-description
+        box-shadow: none
+      &:hover .card--local-beauty
+        filter: saturate(0.7)
+      &:hover .card--product-logo
+        svg
+          path
+            fill: $golden
+    @media (min-width: 1200px)
+      width: 16.66%
+
+  &--short-description
+    box-shadow: inset 1px 0px 0px 0px $lightGrey, inset -1px 0px 0px 0px $lightGrey
+    @media (min-width: 767px)
+      box-shadow: inset 1px 0px 0px 0px $lightGrey
+    h2
+      margin: 20px 0 10px 10px
+      font-size: 36px
+      @media (min-width: 1200px)
+        font-size: 24px
+      @media (min-width: 1400px)
+        font-size: 32px
+    p
+      box-sizing: border-box
+      padding: 0 10px 20px
+
+  &--local-beauty
+    width: 100%
+    height: 150px
+    background-repeat: no-repeat
+    background-position: center top
+    background-size: cover
+    transition: all .3s ease-in-out
+    @media (min-width: 767px)
+      filter: saturate(0.1)
+    @media (min-width: 1200px)
+      height: 100%
+
+  &--product-logo
+    width: 100%
+    height: 100%
+    box-sizing: border-box
+    padding: 40px
+    svg
+      path
+        fill: white
+        transition: all .3s ease-in-out
+
+  &--link-to-full
+    font-size: 24px
+    display: block
+    text-align: center
+    padding: 16px 0
+    background-color: $darkBlue
+    color: white
+    transition: .3s ease-in-out
+    &:hover
+      color: $golden
+    span
+      text-transform: uppercase
+      font-size: 22px
+
+  // CONTENT FULL STYLE
+  &--content-full
+    z-index: 11
+    display: flex
+    flex-direction: column
+    margin-left: -200%
+    position: fixed
+    z-index: 2
+    top: 0
+    height: 100%
+    transition: all .8s ease-in-out
+    width: 100%
+    overflow-y: scroll
+    @media (min-width: 767px)
+      position: fixed
+      flex-direction: row
+      overflow-y: auto
+
+    @media (min-width: 1030px)
+      position: fixed
+    @media (min-width: 1367px)
+      position: absolute
+      left: 0
+      top: 0
+      box-sizing: border-box
+      padding: 60px
+      width: 100%
+    &:target
+      display: flex
+      margin-left: 0%
+
+  &--product-image
+    background-color: pink
+    width: 100%
+    height: 200px
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    @media (min-width: 767px)
+      height: 100%
+
+  &--text
+    box-sizing: border-box
+    padding: 30px 10px 10px
+    min-width: 320px
+    width: 100%
+    background-color: white
+    height: auto
+    span
+      display: block
+      position: relative
+      overflow: hidden
+    h2, h3
+      display: block
+      position: relative
+    h2
+      font-size: 52px
+      color: #a3a3a3
+    h3
+      font-size: 42px
+    p
+      margin-bottom: 20px
+    @media (min-width: 321px)
+      height: 100%
+    @media (min-width: 767px)
+      display: flex
+      flex-direction: column
+      justify-content: center
+    @media (max-width: 320px)
+      h2
+        font-size: 42px
+      h3
+        font-size: 32px
+
+  &--block-effect-line::after
+    content: ''
+    display: block
+    position: absolute
+    left: 0
+    bottom: 0
+    width: 100%
+    height: 2px
+    background-color: #a3a3a3
+    animation: headlineLine 1.4s ease .6s forwards
+    transform: translate3d(-100%,0,0)
+
+  &--backbutton
+    display: block
+    position: relative
+    color: white
+    align-self: center
+    background-color: $darkBlue
+    padding: 10px 20px
+    margin-bottom: 10px
+    display: flex
+    justify-content: center
+    align-items: center
+    transition: all .3s ease
+    svg
+      margin-right: 10px
+      transition: all .5s ease
+      transform: rotate(0deg)
+
+    &:hover svg
+      transform: rotate(90deg)
+      path
+        fill: $golden
+
+  &--logotype
+    display: none
+    @media (min-width: 1024px)
+      display: block
+      width: 100%
+      background-color: $linkColor
