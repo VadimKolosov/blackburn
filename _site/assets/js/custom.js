@@ -28,8 +28,11 @@ function hamburgerActive() {
 }
 
 function clickMainNav() {
-  $('.nav-main-link').on('click', function() {
-  	$('.nav-main--menu-wrapper').removeClass('active-nav-menu');
+  $('.nav-main--link').on('click', function() {
+    $('.nav-main--menu-wrapper').addClass('disable-nav-menu').delay(300).queue(function(){
+      $(this).removeClass('disable-nav-menu').dequeue();
+  });
+    $('.nav-main--menu-wrapper').removeClass('active-nav-menu');
   	$('.nav-main--hamburger').removeClass('active-hamburger-icon');
     $('.headline-one').addClass('animation-h2');
   	$('.headline-two').addClass('animation-h3');
