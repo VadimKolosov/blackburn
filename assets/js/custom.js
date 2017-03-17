@@ -2,6 +2,7 @@ $(function() {
   headlineAnimation();
   hamburgerActive();
   clickMainNav();
+  mainLinksShowUp();
 });
 
 function headlineAnimation() {
@@ -21,6 +22,7 @@ function hamburgerActive() {
   $('.nav-main--hamburger').on('click', function() {
   	$('.nav-main--menu-wrapper').toggleClass('active-nav-menu');
   	$('.nav-main--hamburger').toggleClass('active-hamburger-icon');
+  	$('.nav-main--link').addClass('active-menu-link');
     $('.headline-one').removeClass('animation-h2');
     $('.headline-two').removeClass('animation-h3');
     $('.simple-line').removeClass('card--block-effect-line');
@@ -29,6 +31,7 @@ function hamburgerActive() {
 
 function clickMainNav() {
   $('.nav-main--link').on('click', function() {
+    $('.nav-main--link').removeClass('active-menu-link');
     $('.nav-main--menu-wrapper').addClass('disable-nav-menu').delay(300).queue(function(){
       $(this).removeClass('disable-nav-menu').dequeue();
   });
@@ -38,4 +41,8 @@ function clickMainNav() {
   	$('.headline-two').addClass('animation-h3');
   	$('.simple-line').addClass('card--block-effect-line');
   });
+}
+
+function mainLinksShowUp() {
+
 }

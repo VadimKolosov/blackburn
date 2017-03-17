@@ -11,8 +11,8 @@ description:
   alt-product-image: 'coffee pack',
   product-logo: 'lion.jpg',
   alt-product-logo: 'lion',
-  product-name: 'Nepal',
-  product-location: 'Everest' }
+  product-name: 'Sumatra',
+  product-location: 'Indonesia' }
 
 - {local-image: 'ethiopia-africa.jpg',
   description-text-short: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
@@ -22,8 +22,8 @@ description:
   alt-product-image: 'coffee pack',
   product-logo: 'lion.jpg',
   alt-product-logo: 'lion',
-  product-name: 'Ethiopia',
-  product-location: 'Africa' }
+  product-name: 'Supremo',
+  product-location: 'Colombia' }
 
 - {local-image: 'galapagos-ecuador.jpg',
   description-text-short: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
@@ -32,8 +32,8 @@ description:
   alt-product-image: 'coffee pack',
   product-logo: 'lion.jpg',
   alt-product-logo: 'lion',
-  product-name: 'Ecuador',
-  product-location: 'Galapagos' }
+  product-name: 'Maragogipe',
+  product-location: 'Guatemala' }
 
 - {local-image: 'nepal-everest.jpg',
   description-text-short: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
@@ -42,8 +42,8 @@ description:
   alt-product-image: 'coffee pack',
   product-logo: 'lion.jpg',
   alt-product-logo: 'lion',
-  product-name: 'Sumatra',
-  product-location: 'Indonesia' }
+  product-name: 'Los_Planes',
+  product-location: 'Salvador' }
 
 - {local-image: 'sumatra-indonesia.jpg',
   description-text-short: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
@@ -52,8 +52,8 @@ description:
   alt-product-image: 'coffee pack',
   product-logo: 'lion.jpg',
   alt-product-logo: 'lion',
-  product-name: 'Columbia',
-  product-location: 'South America' }
+  product-name: 'Yirgacheffe',
+  product-location: 'Ethiopia' }
 
 - {local-image: 'ethiopia-africa.jpg',
   description-text-short: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
@@ -62,5 +62,5 @@ description:
   alt-product-image: 'coffee pack',
   product-logo: 'lion.jpg',
   alt-product-logo: 'lion',
-  product-name: 'Blue Mountain',
+  product-name: 'Blue_Mountain',
   product-location: 'Jamaica' }

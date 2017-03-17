@@ -8,13 +8,13 @@ section.card
         h2 {{ description.product-location }}
         p {{ description.description-text-short }}      
       a.card--link-to-full(href="#{{ description.product-name }}")
-        .card--product-logo {% include logo/blackburn-logo.html %}
+        .card--product-logo {% include logo/{{ description.product-name }}.html %}
         span {{ description.product-name }}
     | {% endfor %}
 
   | {% for description in site.data.settings.description %}
   .card--content-full(id="{{ description.product-name }}")
-    .card--product-image(style="background-image: url(assets/img/{{ description.product-image }});")      
+    .card--product-image(style="background-image: url(assets/img/{{ description.product-image }});")
     .card--text
       span.simple-line
         h2.headline-one {{ description.product-location }}

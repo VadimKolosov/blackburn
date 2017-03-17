@@ -45,9 +45,10 @@
     background-color: $darkBlue
     transition: all .3s ease-in-out
     transform: scale(0)
+
   &--link
-    position: absolute
-    bottom: -10%
+    display: block
+    margin-top: 30%
     font-family: 'Open Sans', sans-serif
     text-transform: uppercase
     font-size: 24px
@@ -55,6 +56,7 @@
     padding: 0 10px
     margin-bottom: 10px
     overflow: hidden
+    transition: margin-top .3s ease-in-out .3s
     &::after
       content: ''
       display: block
@@ -81,3 +83,6 @@
     display: none
   .span-three
     transform: rotate(-45deg)
+
+.active-menu-link
+  margin-top: 0
