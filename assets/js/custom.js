@@ -10,11 +10,13 @@ function headlineAnimation() {
   	$('.headline-one').addClass('animation-h2');
   	$('.headline-two').addClass('animation-h3');
   	$('.simple-line').addClass('card--block-effect-line');
+    $('.card--logotype svg').addClass('svg-animate');
   });
   $('.card--backbutton').on('click', function() {
   	$('.headline-one').removeClass('animation-h2');
   	$('.headline-two').removeClass('animation-h3');
   	$('.simple-line').removeClass('card--block-effect-line');
+    $('.card--logotype svg').removeClass('svg-animate');
   });
 }
 
@@ -26,13 +28,14 @@ function hamburgerActive() {
     $('.headline-one').removeClass('animation-h2');
     $('.headline-two').removeClass('animation-h3');
     $('.simple-line').removeClass('card--block-effect-line');
+    $('.card--logotype svg').addClass('svg-animate');
   });
 }
 
 function clickMainNav() {
   $('.nav-main--link').on('click', function() {
     $('.nav-main--link').removeClass('active-menu-link');
-    $('.nav-main--menu-wrapper').addClass('disable-nav-menu').delay(300).queue(function(){
+    $('.nav-main--menu-wrapper').addClass('disable-nav-menu').delay(10).queue(function(){
       $(this).removeClass('disable-nav-menu').dequeue();
   });
     $('.nav-main--menu-wrapper').removeClass('active-nav-menu');
@@ -44,5 +47,7 @@ function clickMainNav() {
 }
 
 function mainLinksShowUp() {
-
+  $('input, textarea').focus(function(event) {
+    $(this).siblings('.label-span').animate({'top' : '-25px', 'font-size' : '12px'}, 80);
+  });
 }

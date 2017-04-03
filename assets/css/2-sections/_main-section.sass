@@ -4,6 +4,74 @@
 .main
   height: 100vh
   position: relative
+  display: flex
+  justify-content: center
+  align-items: center
+  background-color: white
+
+  &--huracan-logo
+    position: absolute
+    svg
+      width: 200px
+      fill: transparent
+      stroke: $darkBlue
+      path
+        stroke-dasharray: 4600
+        stroke-dashoffset: -4600
+        animation: huracanLogo 5s forwards
+      @media (min-width: 1367px)
+        width: 300px
+
+
+  &--orbit
+    @media (min-width: 1367px)
+      position: relative
+      width: 700px
+      height: 700px
+      border-radius: 100%
+      border: 1px solid transparentize($darkBlue, 0.9)
+      animation: spin 32s linear infinite
+
+  &--small-logo
+    @media (min-width: 1367px)
+      position: absolute
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 140px
+      height: 140px
+      animation: spinReverse 32s linear infinite
+      background-color: white
+      border-radius: 100%
+      border: 1px solid transparentize($darkBlue, 0.7)
+      svg
+        width: 120px
+        fill: $darkBlue
+
+  &--small-logo.sumatra-logo
+    top: 0
+    left: 85px
+
+  &--small-logo.supremo-logo
+    top: 0
+    right: 80px
+
+  &--small-logo.maragogipe-logo
+    top: calc(50% - 75px)
+    left: -75px
+
+  &--small-logo.losplanes-logo
+    left: 80px
+    bottom: 0
+
+  &--small-logo.yirgacheffe-logo
+    bottom: 0px
+    right: 80px
+
+  &--small-logo.bluemountain-logo
+    top: calc(50% - 75px)
+    right: -75px
+
 .nav-main
   &--hamburger
     z-index: 10
@@ -35,6 +103,8 @@
   &--menu-wrapper
     z-index: 9
     position: fixed
+    top: 0
+    left: 0
     display: flex
     justify-content: center
     flex-direction: column
@@ -69,8 +139,7 @@
     &:hover:after
       transform: translate3d(0%,0,0)
 
-
-
+      
 .active-hamburger-icon
   transform: scale(0.90)
   box-shadow: 0 0 1px 0 rgba(#11141b, 0.5)

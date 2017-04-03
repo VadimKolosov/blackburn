@@ -3,12 +3,13 @@
 /*** =================================================================***/
 
 .card
-  background-color: rgb(168, 149, 191)
+  // background-color: rgb(168, 149, 191)
   position: relative
   box-sizing: border-box
-  height: 100vh
+  height: auto
   @media (min-width: 1367px)
     padding: 60px
+    height: 100vh
   @media (max-width: 500px)
     height: auto
 
@@ -52,6 +53,9 @@
 
   &--short-description
     box-shadow: inset 1px 0px 0px 0px $lightGrey, inset -1px 0px 0px 0px $lightGrey
+    min-height: 275px
+    background:
+      image: url('../img/topography.png')
     @media (min-width: 767px)
       box-shadow: inset 1px 0px 0px 0px $lightGrey
     h2
@@ -144,10 +148,11 @@
 
   &--text
     box-sizing: border-box
-    padding: 30px 10px 10px
+    padding: 30px 20px 10px
     min-width: 320px
     width: 100%
-    background-color: white
+    background:
+      image: url('../img/topography.png')
     height: auto
     span
       display: block
@@ -163,8 +168,9 @@
       font-size: 42px
     p
       margin-bottom: 20px
+
     @media (min-width: 321px)
-      height: 100%
+      height: auto
     @media (min-width: 767px)
       display: flex
       flex-direction: column
@@ -212,6 +218,18 @@
   &--logotype
     display: none
     @media (min-width: 1024px)
-      display: block
+      display: flex
+      justify-content: center
+      align-items: center
       width: 100%
-      background-color: $linkColor
+      overflow: hidden
+      background-color: $darkBlue
+    svg
+      width: 600px
+      transform: scale(0)
+      transition: all .5s ease-in-out .6s
+      path
+        fill: $golden
+
+.svg-animate
+  transform: scale(1) !important

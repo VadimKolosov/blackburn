@@ -26,6 +26,21 @@
     border-radius: 20%
     transform: scale(0)
 
+/* Logo Spin Animation */
+
+@keyframes spin
+  from
+    transform: rotate(0)
+  to
+    transform: rotate(360deg)
+
+@keyframes spinReverse
+  from
+    transform: rotate(0)
+  to
+    transform: rotate(-360deg)
+
+
 /* Headline Animation*/
 
 .animation-h2
@@ -54,3 +69,12 @@
     transform: translate3d(-100%,0,0)
   to
     transform: translate3d(0,0,0)
+
+@keyframes huracanLogo
+  0%
+    stroke-dashoffset: -4600
+  50%
+    stroke-dashoffset: 0
+    fill: transparent
+  100%
+    fill: #11141b

@@ -22,5 +22,5 @@ section.card
         h3.headline-two {{ description.product-name }}
       p {{ description.description-text }}
       a(href="#main").card--backbutton {% include logo/close-cross.html %} Close
-    .card--logotype
+    .card--logotype {% include logo/{{ description.product-name }}.html %}
   | {% endfor %}

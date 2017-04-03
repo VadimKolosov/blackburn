@@ -5,8 +5,8 @@
 
 description:
 - {local-image: 'nepal-everest.jpg',
-  description-text-short: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-  description-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+  description-text-short: 'Aceh Province, located north of Sumatra Island in Indonesia is known to produce one of the most remarkable coffees in the world',
+  description-text: 'Aceh Province, located north of Sumatra Island in Indonesia is known to produce one of the most remarkable coffees in the world. This lot is produced by a group of farmers in Bener Meriah district of Aceh in the Wonosari zone. Some farmers hand pulp the cherries while others send to collectors to pulp. <br> The goal is to have one pulping machine in proximity to a few farmers to be shared that way they can pulp their own cherries and can increase their profit margins. Over the last 5 years, continuous education and training to farmers through collectors have resulted in increased quality in the Wonosari supply chain. The yield has slowly increased which in turn provides a better life for farmers as well as collectors. Even in seasons when yields are lower than usual, the quality still stands out in this special coffee- which makes this a successful project for everyone involved.',
   product-image: 'coffee-pack.jpg',
   alt-product-image: 'coffee pack',
   product-logo: 'lion.jpg',
@@ -15,9 +15,10 @@ description:
   product-location: 'Indonesia' }
 
 - {local-image: 'ethiopia-africa.jpg',
-  description-text-short: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-  description-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+  description-text-short: 'Colombia boasts more than half a million coffee farmers producing anywhere from 10 to 25 bags on 870,000 hectares, with many lots as small as 50kg.',
+  description-text: 'Colombia boasts more than half a million coffee farmers producing anywhere from 10 to 25 bags on 870,000 hectares, with many lots as small as 50kg.
+There are very few estate coffees, sixty percent of Colombian coffee farmers cultivate their trees on less than one hectare of land. Most of the coffee shipped from Colombia is a blend of the production from 50 or more individual farms. While this situation is typical of cooperatives in other coffee producing countries, it is unusual, and on Colombia&acutes scale, unique for it to be the dominant method.
+Generally, given the vast complexity and variety of coffees coming from this origin, Colombian coffees can be characterised as sweet and big bodied with notes of caramel and balanced fruitiness. Coffee farming in Colombia is, to put it quite simply, woven into the fabric of everyday life. Supremo is the highest grade of Colombian coffee based on the fewest physical imperfections in the bean. The Huila growing area, along with Cauca & Narino, is in the south western part of Colombia.',
   product-image: 'coffee-pack.jpg',
   alt-product-image: 'coffee pack',
   product-logo: 'lion.jpg',
@@ -26,8 +27,8 @@ description:
   product-location: 'Colombia' }
 
 - {local-image: 'galapagos-ecuador.jpg',
-  description-text-short: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-  description-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+  description-text-short: 'Maragogype is a variety of arabica that is sometimes referred to as the &laquoelephant bean&raquo due to its large size..',
+  description-text: 'Maragogype is a variety of arabica that is sometimes referred to as the &laquoelephant bean&raquo due to its large size. Produced in rather limited quantities this distinctive bean from Guatemala has an excellent reputation.Quality Arabica coffee is grown in the temperate belt 1,000 miles either side of the Equator and at altitudes above 1,000 metres where the soil is rich, the temperature is mild, with frequent rain and shaded sun. At Coffee Care our coffees are sourced from the very best of the crop each harvest season. Our beans are then expertly roasted to provide a consistently high quality cup of the very finest unique blends and single origin coffees from around the world.',
   product-image: 'coffee-pack.jpg',
   alt-product-image: 'coffee pack',
   product-logo: 'lion.jpg',
@@ -36,8 +37,8 @@ description:
   product-location: 'Guatemala' }
 
 - {local-image: 'nepal-everest.jpg',
-  description-text-short: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-  description-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+  description-text-short: 'Finca Los Planes is a distinguished, innovating El Salvador farm, one of whose coffees placed second in the 2006 El Salvador Cup of Excellence competition.',
+  description-text: 'Finca Los Planes is a distinguished, innovating El Salvador farm, one of whose coffees placed second in the 2006 El Salvador Cup of Excellence competition. Produced from trees of the Pacamara variety at an elevation of approximately 5,300 feet by farmer Sergio Edmundo Ticas Reyes on the Los Planes farm. The Pacamara variety, a cross between the giant-beaned Maragogipe variety and Pacas, a selection of the heirloom Bourbon, has proven to produce exceptional coffee on many El Salvador farms. This selection consists entirely of peaberries, a kind of bean that results when the coffee fruit develops only a single, oval bean rather than the usual pair of flat-sided beans. Peaberries produce a somewhat different (often better) cup than normal beans from the same crop, from which they may or may not be separated during grading. ',
   product-image: 'coffee-pack.jpg',
   alt-product-image: 'coffee pack',
   product-logo: 'lion.jpg',
@@ -46,8 +47,8 @@ description:
   product-location: 'Salvador' }
 
 - {local-image: 'sumatra-indonesia.jpg',
-  description-text-short: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-  description-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+  description-text-short: 'Yirgacheffe coffee is a wet processing (washed) coffee grown at elevations from 5,800 feet to 7,300 feet above sea level, and is the considered the best coffee grown in southern Ethiopia, a region known for its fine coffees.',
+  description-text: 'Yirgacheffe coffee is a wet processing (washed) coffee grown at elevations from 5,800 feet to 7,300 feet above sea level, and is the considered the best coffee grown in southern Ethiopia, a region known for its fine coffees. These elevations qualify Yirgacheffes as Strictly High Grown (SHG) / Strictly Hard Bean (SHB) coffees, where coffees grow slowly due to the altitude, allowing additional time for the tree to deliver nutrients to the coffee and develop the best flavors.Known for its sweet flavor and aroma with a light to medium body. Ethiopian Yirgacheffes are spicy and fragrant, and are frequently reviewed and rated as some of the highest quality arabica coffees in the world. Their premium reputation also often means they carry a premium price, but even so, they offer better value for your money than other comparables.',
   product-image: 'coffee-pack.jpg',
   alt-product-image: 'coffee pack',
   product-logo: 'lion.jpg',
@@ -56,8 +57,9 @@ description:
   product-location: 'Ethiopia' }
 
 - {local-image: 'ethiopia-africa.jpg',
-  description-text-short: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-  description-text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+  description-text-short: 'The story begins before the bean is born or even the seed planted in the soil. Jamaica Blue Mountain coffee can claim its origins from a decision taken by a French King in the 18th Century.',
+  description-text: 'The story begins before the bean is born or even the seed planted in the soil. Jamaica Blue Mountain coffee can claim its origins from a decision taken by a French King in the 18th Century. In 1723, King Louis XV sent three coffee plants to the French colony of Martinique - another lush, fertile island 1,900 kilometres south-west of Jamaica. Five years later in 1728, Sir Nicholas Lawes, Governor of Jamaica, received a gift of one coffee plant from the Governor of Martinique. The rest is history. Jamaica Blue Mountain coffee was born. <br>
+  Luthie is a coffee farmer on Pleasant Hill in the Blue Mountains of Jamaica. Only coffee grown in the legally defined Blue Mountain range can be certified as Blue Mountain Coffee. A smallholder farmer, Luthie employs a handful of other local people to help plant the Arabica Typica, continue the husbandry of the plants throughout the year, including pruning and stumping when necessary.',
   product-image: 'coffee-pack.jpg',
   alt-product-image: 'coffee pack',
   product-logo: 'lion.jpg',

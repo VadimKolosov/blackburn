@@ -1,0 +1,120 @@
+/*** =================================================================***/
+/*                            ABOUT SECTION                             */
+/*** =================================================================***/
+
+.about
+  position: relative
+  display: flex
+  box-sizing: border-box
+  height: 100vh
+  // &::after
+  //   content: ''
+  //   position: absolute
+  //   top: 0
+  //   left: calc(50% - 2px)
+  //   width: 2px
+  //   height: 100%
+  //   background-color: $darkBlue
+  @media (min-width: 1367px)
+    padding: 60px
+  @media (max-width: 500px)
+    height: auto
+
+  &--company-image-wrapper
+    width: 100%
+
+  &--image
+    width: 100%
+    height: 50%
+    background:
+      image: url('../img/coffee-roast-1.jpg')
+      size: cover
+      position: center right
+      repeat: no-repeat
+
+  &--image-2
+    background:
+      image: url('../img/coffee-roast-2.jpg')
+
+  &--contact-wrapper
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 100%
+
+  // &--address-wrapper
+    max-width: 450px
+    width: 400px
+    box-sizing: border-box
+    padding: 20px
+    background-color: rgba(#c896aa, 0.11)
+    ul
+      li
+        font-weight: bold
+        padding: 5px 0
+        span
+          font-weight: normal
+
+  // FORM SECTION
+
+  &--contact-form-section
+    box-sizing: border-box
+    padding: 20px
+
+  &--contact-form-wrapper
+    display: flex
+    flex-direction: column
+    max-width: 450px
+    width: 400px
+    box-sizing: border-box
+    padding: 40px 0
+    span, input, textarea
+      font-size: 16px
+      font-weight: bold
+    label,
+      position: relative
+    span
+      color: transparentize($darkBlue, .5)
+      position: absolute
+      bottom: 39px
+      left: 9px
+      transition: all .1s linear
+      user-select: none
+      &.last-span
+        top: 7px
+
+    input, textarea
+      box-sizing: border-box
+      background-color: transparent
+      padding: 10px
+      transition: all .2s ease-in-out
+
+    [type="text"], [type="email"], textarea
+      width: 100%
+      border: none
+      background-color: transparent
+      border-bottom: 2px solid $darkBlue
+      outline: none
+      margin-bottom: 30px
+      &:focus
+        border-bottom: 2px solid $golden
+    [type="submit"]
+      border: 2px solid $darkBlue
+      cursor: pointer
+      margin-bottom: 10px
+      &:hover
+        color: $golden
+        background-color: $darkBlue
+      &:active
+        transform: scale(0.99)
+    textarea
+      line-height: 1.6
+      resize: none
+
+  &--googlemaps-wrapper
+    background-color: pink
+    width: 100%
+    height: 100%
+    iframe
+      width: 100%
+      height: 100%
